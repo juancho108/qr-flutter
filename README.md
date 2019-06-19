@@ -1,8 +1,8 @@
-# qrreaderapp
+# QR Reader App
 
 Aplicación en Flutter donde Lee un codigos QR de sitios web o coordenadas de Mapas y abre ambos segun el tipo.
 
-## Getting Started
+## Breve descripción
 
 El boton central abre la camara del dispositivo y permite escanear un codigo QR.
 La app está preparada solamente para detectar QR :
