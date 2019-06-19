@@ -1,16 +1,18 @@
 # qrreaderapp
 
-A new Flutter project.
+Aplicación en Flutter donde Lee un codigos QR de sitios web o coordenadas de Mapas y abre ambos segun el tipo.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+El boton central abre la camara del dispositivo y permite escanear un codigo QR.
+La app está preparada solamente para detectar QR :
 
-A few resources to get you started if this is your first Flutter project:
+-web ej: https:www.google.com
+-maps ej: geo:-34.921690702443165,-57.95414343317873'
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Al escanear, la app reconoce automaticamente el tipo y lo abre o en un navegador web o en un mapa (colocando el punto de la coordenada).
+Al volver a la pantalla inicial los valores capturados se listarán segun su tipo en cada pestaña: Mapas o Direcciones.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+Al deslizar hacia derecha o izquierda sobre el item, lo eliminaremos.
+
+En la parte superior existe un boton de un tacho de basura con una X. Apretando sobre él, eliminamos todos los valores capturados de ambos tipos.
